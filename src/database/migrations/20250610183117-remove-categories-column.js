@@ -10,7 +10,7 @@ module.exports = {
     await queryInterface.addColumn("products","category",{
 
      type:Sequelize.STRING,
-     allowNull:false,
+     allowNull:true,
 
 
     });

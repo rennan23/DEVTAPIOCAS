@@ -28,7 +28,7 @@ const OrderSchema = new mongoose.Schema({
       },
       Category: {
         type: String,
-        required: true,
+        required: false,
       },
       url: {
         type: String,
